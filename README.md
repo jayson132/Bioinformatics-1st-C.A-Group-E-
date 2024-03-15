@@ -21,7 +21,7 @@ int main() {
         my area of interest is gene expression and DNA/RNA sequencing
 
 
-str <- "saniishaya@gmail.com";
+str <- "saniishaya4@gmail.com";
 		"Ishaya Sani"
 			"interest: Gene data Analysis"
 
@@ -29,7 +29,7 @@ str # print the value of str
 load 
  "Ishaya Sani"
  "interest: Gene data Analysis"
- "saniishaya@gmail.com"
+ "saniishaya4@gmail.com"
 function (file, envir = parent.frame(), verbose = FALSE) 
 {
     if (is.character(file)) {
