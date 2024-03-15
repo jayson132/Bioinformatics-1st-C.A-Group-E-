@@ -48,16 +48,4 @@ function (file, envir = parent.frame(), verbose = FALSE)
             return(.Internal(load(file, envir)))
         }
     }
-    else if (inherits(file, "connection")) {
-        con <- if (inherits(file, "gzfile") || inherits(file, 
-            "gzcon")) 
-            file
-        else gzcon(file)
-    }
-    else stop("bad 'file' argument")
-    if (verbose) 
-        cat("Loading objects:\n")
-    .Internal(loadFromConn2(con, envir, verbose))
-}
-<bytecode: 0x55b14750bda8>
-<environment: namespace:base>
+    
