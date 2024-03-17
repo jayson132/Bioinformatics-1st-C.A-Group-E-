@@ -1,0 +1,6 @@
+>>> print("my name is",name)
+    my name is Godwin Samson Ajilima
+>>> print("my email is", email)
+      my email is godwinsamson634@gmail.com
+>>> print("my area of interest is",intrest)
+        my area of interest is gene expression and DNA/RNA sequencing
