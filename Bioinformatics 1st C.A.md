@@ -56,3 +56,101 @@ const email = "josephgrace417@gmail.com";
 const interest = "chromosomes data analysis";
 
 console.log(`Name: ${name}\nEmail: ${email}\nArea of Interest: ${interest}`);
+
+                    using PHP language
+<?php
+
+$name = "Sabo Gad Magawata";
+$email = "sabogad80@gmail.com";
+$interest = "Biotechnology";
+
+$data = "Name: $name\nEmail: $email\nArea of Interest: $interest\n";
+
+file_put_contents("data.txt", $data);
+
+echo "Information saved to data.txt\n";
+
+?>
+
+<?php
+
+$name = "Sabo Gad Magawata";
+$email = "sabogad80@gmail.com";
+$interest = "Biotechnology";
+
+echo "Name:\t\t$name\n";
+echo "Email:\t\t$email\n";
+echo "Area of Interest:\t$interest\n";
+
+?>
+
+                              using Go language
+package main
+
+import (
+    "fmt"
+    "os"
+)
+
+func main() {
+    os.Setenv("NAME", "Hannatu Anthony Garba")
+    os.Setenv("EMAIL", "hannygarbaanthony24@gmail.com")
+    os.Setenv("AREA_OF_INTEREST", "genomics")
+
+    fmt.Println("Name:", os.Getenv("NAME"))
+    fmt.Println("Email:", os.Getenv("EMAIL"))
+    fmt.Println("Area of Interest:", os.Getenv("AREA_OF_INTEREST"))
+}
+Access arguments in the program:
+Go
+package main
+
+import (
+    "fmt"
+    "os"
+)
+
+func main() {
+    if len(os.Args) != 4 {
+        fmt.Println("Usage: go run main.go <name> <email> <area_of_interest>")
+        return
+    }
+    
+    name := os.Args[1]
+    email := os.Args[2]
+    interest := os.Args[3]
+    
+    fmt.Println("Name:", name)
+    fmt.Println("Email:", email)
+    fmt.Println("Area of Interest:", interest)
+
+
+                       using Kotlin language
+    fun main() {val name = "TORNGU MSUGHTER ERIC"
+val email = "flamezkid9@gmail.com"
+val areaOfInterest = "Comparative Genomics"
+
+// You can now access and print the information
+println("Name: $name")
+println("Email: $email")
+println("Area of Interest: $areaOfInterest")
+}
+
+              using C# language
+using System;
+
+public class BIODATA
+{class UserInfo
+{
+    static void Main(string[] args)
+    {
+        string name = "DAVID MONDAY OSIEWE";
+        string email = "davidmonday3454@gmail.com";
+        string areaOfInterest = "BIOTECHNOLOGY";
+
+        Console.WriteLine("Name: {0}", name);
+        Console.WriteLine("Email: {0}", email);
+        Console.WriteLine("Area of Interest: {0}", areaOfInterest);
+    }
+}
+}
