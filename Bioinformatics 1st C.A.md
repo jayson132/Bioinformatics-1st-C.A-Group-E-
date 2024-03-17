@@ -1,5 +1,5 @@
 # Bioinformatics-1st-C.A-Group-E-
-
+        using C++ language
 int main() {
     string name="Joseph Ochika";
     	string email="josepochika@gmail.com";
@@ -12,6 +12,7 @@ int main() {
     return 0;
     	
 }
+                       using python language 
 
 >>> print("my name is",name)
     my name is Godwin Samson Ajilima
@@ -20,7 +21,7 @@ int main() {
 >>> print("my area of interest is",intrest)
         my area of interest is gene expression and DNA/RNA sequencing
 
-
+                      using R language
 str <- "saniishaya4@gmail.com";
 		"Ishaya Sani"
 			"interest: Gene data Analysis"
@@ -49,7 +50,7 @@ function (file, envir = parent.frame(), verbose = FALSE)
         }
     }
     
-
+                  using Javascript language
 const name = "Grace Joseph";
 const email = "josephgrace417@gmail.com";
 const interest = "chromosomes data analysis";
